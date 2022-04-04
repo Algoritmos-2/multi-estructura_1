@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import datastructures.MinHeap;
 
 public class Main {
 
