@@ -15,6 +15,8 @@ Se pide implementar las operaciones en estos ordenes:
 Notas: 
 - La prioridad es un numero que mientas menor sea, mayor es la prioridad.
 - De existir dos tareas con la misma prioridad entonces se usa el orden de llegada.
+- De estar llena la cola de prioridad y querer insertar una tarea, esta se ignora (no se inserta)
+- De estar vacia la cola de prioridad y querer extraer la tarea más prioritaria, esta se ignora (no imprime nada)
 
 ## Formato de entrada
 | Entrada           |
