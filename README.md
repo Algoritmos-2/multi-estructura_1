@@ -28,12 +28,12 @@ Notas:
 | Operacion N       |
 
 
-- La primer linea indica la capacidad de la cola de prioridad.
-- La segunda linea la cantidad de operacion que se realizaran.
-- Las N siguientes lineas son las operaciones a realizar. Estan pueden ser
--- Añadir: "insert [id] [prioridad]"
--- Tarea más prioritaria: "next" 
--- Eliminar tarea: "delete [id]"
+La primer linea indica la capacidad de la cola de prioridad.
+La segunda linea la cantidad de operacion que se realizaran.
+Las N siguientes lineas son las operaciones a realizar. Estan pueden ser:
+- Añadir: "insert [id] [prioridad]"
+- Tarea más prioritaria: "next" 
+- Eliminar tarea: "delete [id]"
 
 ## Formato de salida
 Imprime por cada linea la salida de la cola de prioridad ("next")
